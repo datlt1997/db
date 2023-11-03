@@ -23,30 +23,28 @@
       "id": "2"
       }
   ],
-  "exams": [
-    {
-      "total_page": 1,
-      "current_page": 1,
-      "nums_page": 10,
-      "history": [
-        {
-        "title": "title 49",
-        "start_time": "2023-02-05T11:29:50.399Z",
-        "end_time": "2023-02-05T13:04:32.532Z",
-        "result": false,
-        "id": "1"
-        },
-        {
-          "title": "title 50",
-          "start_time": "2023-12-27T08:29:13.074Z",
-          "end_time": "2023-12-28T01:07:34.273Z",
-          "result": true,
-          "id": "2"
-        }
-      ]
-    }
-  ],
-  "exams_detail": {
+  "histories": {
+    "total_page": 1,
+    "current_page": 1,
+    "nums_page": 10,
+    "history": [
+      {
+      "title": "title 49",
+      "start_time": "2023-02-05T11:29:50.399Z",
+      "end_time": "2023-02-05T13:04:32.532Z",
+      "result": false,
+      "id": "1"
+      },
+      {
+        "title": "title 50",
+        "start_time": "2023-12-27T08:29:13.074Z",
+        "end_time": "2023-12-28T01:07:34.273Z",
+        "result": true,
+        "id": "2"
+      }
+    ]
+  },
+  "history_detail": {
     "title": "title 66",
     "result": false,
     "point": 63,
@@ -173,5 +171,114 @@
         "id": "58"
         }
     ]
-  }
+  },
+  "rank_test": [
+    {
+      "full_name": "test 1",
+      "start_date": "2023-11-03 11:38:33",
+      "point": 98
+    },
+    {
+      "full_name": "test 2",
+      "start_date": "2023-11-01 12:39:33",
+      "point": 97
+    },
+    {
+      "full_name": "test 2",
+      "start_date": "2023-11-04 15:12:33",
+      "point": 95
+    }
+  ],
+  "exams": {
+    "total_page": 1,
+    "current_page": 1,
+    "nums_page": 10,
+    "topic": "PHP",
+    "history": [
+      {
+        "title": "title 49",
+        "start_time": "2023-02-05T11:29:50.399Z",
+        "end_time": "2023-02-05T13:04:32.532Z",
+        "id": "3"
+      },
+      {
+        "title": "title 50",
+        "start_time": "2023-12-27T08:29:13.074Z",
+        "end_time": "2023-12-28T01:07:34.273Z",
+        "id": "4"
+      }
+    ]
+  },
+  "test": [
+    {
+      "id": 1,
+      "title": "title 1",
+      "start_time": "2023-12-27T14:07:25.143Z",
+      "end_time": "2023-12-28T01:07:34.273Z",
+      "questions": [
+        {
+          "id": 12,
+          "question": "A la",
+          "image": "https://loremflickr.com/640/480/technics",
+          "answer": [
+            {
+              "id": 11,
+              "question_id": 1,
+              "answer": "anwer1",
+              "result": true
+            },
+            {
+              "id": 12,
+              "question_id": 1,
+              "answer": "anwer2",
+              "result": false
+            },
+            {
+              "id": 13,
+              "question_id": 1,
+              "answer": "anwer3",
+              "result": false
+            },
+            {
+              "id": 14,
+              "question_id": 1,
+              "answer": "anwer4",
+              "result": false
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "question": "A la",
+          "image": "https://loremflickr.com/640/480/technics",
+          "answer": [
+            {
+              "id": 11,
+              "question_id": 1,
+              "answer": "anwer1",
+              "result": true
+            },
+            {
+              "id": 12,
+              "question_id": 1,
+              "answer": "anwer2",
+              "result": false
+            },
+            {
+              "id": 13,
+              "question_id": 1,
+              "answer": "anwer3",
+              "result": true
+            },
+            {
+              "id": 14,
+              "question_id": 1,
+              "answer": "anwer4",
+              "result": false
+            }
+          ]
+        }
+      ]
+    } 
+  ]
 }
