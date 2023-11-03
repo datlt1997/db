@@ -125,5 +125,53 @@
         "id": "2"
       }
     ]
+  },
+  "dashboard": {
+    "exams_bad": [
+      {
+        "title": "title 71",
+        "start_time": "2055-06-25T23:34:13.063Z",
+        "result": false,
+        "point": 13,
+        "id": "71"
+        },
+        {
+        "title": "title 72",
+        "start_time": "2002-10-14T14:07:25.143Z",
+        "result": false,
+        "point": 20,
+        "id": "14"
+        },
+        {
+        "title": "title 73",
+        "start_time": "2033-12-21T03:03:05.343Z",
+        "result": false,
+        "point": 39,
+        "id": "5"
+        }
+    ],
+    "exams_good": [
+      {
+        "title": "title 71",
+        "start_time": "2055-06-25T23:34:13.063Z",
+        "result": false,
+        "point": 83,
+        "id": "70"
+        },
+        {
+        "title": "title 72",
+        "start_time": "2002-10-14T14:07:25.143Z",
+        "result": false,
+        "point": 90,
+        "id": "74"
+        },
+        {
+        "title": "title 73",
+        "start_time": "2033-12-21T03:03:05.343Z",
+        "result": false,
+        "point": 89,
+        "id": "58"
+        }
+    ]
   }
 }
