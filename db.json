@@ -1,14 +1,129 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "users": [
+    {
+      "user_name": "Ernie_Boyle24",
+      "position": 34445,
+      "email": "Darrell73@hotmail.com",
+      "fullname": "Irma Dach",
+      "birthday": "1969-01-19T03:12:13.990Z",
+      "address": "491",
+      "phone": "265-804-4803 x82685",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/434.jpg",
+      "id": "1"
+    },
+    {
+      "user_name": "Cyrus_Altenwerth",
+      "position": 49816,
+      "email": "Katelynn_Parisian69@gmail.com",
+      "fullname": "Cheryl Murphy",
+      "birthday": "1986-05-15T22:48:05.788Z",
+      "address": "880",
+      "phone": "687-533-5623 x21392",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1119.jpg",
+      "id": "2"
+      }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "exams": [
+    {
+      "total_page": 1,
+      "current_page": 1,
+      "nums_page": 10,
+      "history": [
+        {
+        "title": "title 49",
+        "start_time": "2023-02-05T11:29:50.399Z",
+        "end_time": "2023-02-05T13:04:32.532Z",
+        "result": false,
+        "id": "1"
+        },
+        {
+          "title": "title 50",
+          "start_time": "2023-12-27T08:29:13.074Z",
+          "end_time": "2023-12-28T01:07:34.273Z",
+          "result": true,
+          "id": "2"
+        }
+      ]
+    }
   ],
-  "profile": {
-    "name": "typicode"
+  "exams_detail": {
+    "title": "title 66",
+    "result": false,
+    "point": 63,
+    "total_answer": 30,
+    "true_answer": 24,
+    "wrong_answer": 6,
+    "start_time": "2023-11-03 11:38:33",
+    "finish_time": "2023-11-03 12:48:03",
+    "detail" : [
+      {
+        "id": 1,
+        "title": "title 78?",
+        "image": "https://loremflickr.com/640/480/technics",
+        "answer": [
+          {
+            "id": 11,
+            "question_id": 1,
+            "answer": "anwer1",
+            "result": true
+          },
+          {
+            "id": 12,
+            "question_id": 1,
+            "answer": "anwer2",
+            "result": false
+          },
+          {
+            "id": 13,
+            "question_id": 1,
+            "answer": "anwer3",
+            "result": false
+          },
+          {
+            "id": 14,
+            "question_id": 1,
+            "answer": "anwer4",
+            "result": false
+          }
+        ],
+        "answer_choose": [
+          11, 12
+        ]
+      },
+      {
+        "title": "title 79",
+        "image": "https://loremflickr.com/640/480/technics",
+        "answer": [
+          {
+            "id": 15,
+            "question_id": 2,
+            "answer": "2anwer1",
+            "result": true
+          },
+          {
+            "id": 16,
+            "question_id": 2,
+            "answer": "2anwer2",
+            "result": true
+          },
+          {
+            "id": 17,
+            "question_id": 2,
+            "answer": "2anwer3",
+            "result": false
+          },
+          {
+            "id": 18,
+            "question_id": 2,
+            "answer": "2anwer4",
+            "result": false
+          }
+        ],
+        "answer_choose": [
+          15, 16
+        ],
+        "id": "2"
+      }
+    ]
   }
 }
